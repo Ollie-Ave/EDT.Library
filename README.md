@@ -66,6 +66,6 @@ This project is a simple library management system. You can add, edit and remove
 ### Testing
 
 To run the tests please run at the root of the project:
-	```sh
-	dotnet test
-	```
+```sh
+dotnet test
+```

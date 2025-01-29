@@ -14,4 +14,8 @@
     <ProjectReference Include="..\EDT.Library.DataAccess\EDT.Library.DataAccess.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <InternalsVisibleTo Include="EDT.Library.Services.UnitTests" />
+  </ItemGroup>
+
 </Project>

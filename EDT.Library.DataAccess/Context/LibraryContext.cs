@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 public class LibraryContext : DbContext
 {
-	public DbSet<Book> Books { get; set; }
+	public virtual DbSet<Book> Books { get; set; }
 
 	public string DbPath { get; }
 
